@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tất cả sản phẩm</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/ae00e0dad7.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <header class="site-header">
-            <div class="logo">
-                <img src="img/logo.jpg" alt="Logo" width="170px" height="70px">
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Trang chủ</a></li>
-                    <li><a href="gioithieu.html">Giới thiệu</a></li>
-                    <li><a href="sanpham.html">Sản phẩm</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="lienhe.html">Liên hệ</a></li>
-                    <li><a href="#">Kiểm tra đơn hàng</a></li>
-                </ul>
-            </nav>
-            <div class="actions">
-                <div class="search-container">
-                    <input type="text" class="search-input" placeholder="Search...">
-                    <div class="search-icon">
-                        <i class="fas fa-search"></i>
-                    </div>
-                </div>
-                <div class="btn-container">
-                    <button class="btn"><a href="login.html">Đăng Nhập</a></button>
-                    <button class="btn"><a href="register.html">Đăng ký</a></button>
-                </div>
-            </div>
-        </header>
-        <div class="banner">
-            <img src="img/banner-thoi-trang-bi-an.jpg" alt="">
-        </div>
-
-        <section class="products">
+<section class="products">
             <div class="sanpham">
                 <h2>Sản Phẩm Nổi Bật</h2>
                 <div class="product-grid">
@@ -104,35 +60,3 @@
         <section class="voucher">
             <a href="sanpham.html"> <img src="img/banner-11.11.webp" alt="" width="1200" height="300"></a>
         </section>
-        <section class="">
-
-        </section>
-        <footer>
-            <div class="container">
-                <div class="lienhefooter">
-                    <p>địa chỉ: 13.P Trịnh Văn Bô, Nam Từ Liêm, Hà Nội</p>
-                    <p>Sdt: 0123.456.789</p>
-                    <p>Email: dungdaph50585@gmail.com</p>
-                </div>
-                <div class="hotro">
-                    Hỗ trợ khách hàng
-                    <p>Tìm kiếm </p>
-                    <p>chính sách </p>
-                    <p>điều khoản dịch vụ </p>
-                    <p>hướng dẫn kiểm tra </p>
-                </div>
-                <div class="lienhe">
-                    <a href="https://facebook.com" target="_blank">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-
-                </div>
-
-            </div>
-            <p>&copy; 2024 MenColection Shop - Được thực hiện bởi Dũng</p>
-        </footer>
-
-    </div>
-</body>
-
-</html>

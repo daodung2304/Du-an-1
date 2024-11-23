@@ -173,3 +173,10 @@ footer {
     margin-top: 2rem;
     border-radius: 10px;
 }
+
+footer .container {
+    display: flex;
+    text-align: left;
+    margin-right: 30px;
+    padding: 20px;
+}
